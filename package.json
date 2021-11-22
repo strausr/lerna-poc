@@ -3,5 +3,9 @@
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "quickstart": "lerna bootstrap --no-ci && lerna run build",
+    "update:urlgen": "npm install @cloudinary/url-gen@latest --prefix frameworks/html && npm install @cloudinary/url-gen@latest --prefix frameworks/svelte && npm install @cloudinary/url-gen@latest --prefix frameworks/react && npm install @cloudinary/url-gen@latest --prefix frameworks/angular && npm install @cloudinary/url-gen@latest --prefix ./angular/projects/cloudinary-library"
   }
 }

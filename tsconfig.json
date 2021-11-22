@@ -9,7 +9,6 @@
     "resolveJsonModule": true
   },  "paths": {
   "@cloudinary/html": ["html/src"],
-  "@cloudinary/angular": ["angular/projects/cloudinary-library/src"],
   "@cloudinary/react": ["react/src"],
   "@cloudinary/*": ["*/src"],
   "*": ["node_modules"]
