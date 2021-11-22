@@ -1,5 +1,5 @@
 {
-  "name": "@cloudinary/html",
+  "name": "@raya/html",
   "version": "1.0.0-beta.11",
   "description": "An HTML wrapper for Cloudinary",
   "main": "dist/index.js",
